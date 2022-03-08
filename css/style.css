@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+}
+.menu-style{
+    background-color: #F0A83E;
+    color: white;
+    padding-left: 46px;
+    
+}
+
+.pata-doge{
+    list-style-type: none;
+    padding-left: 1px;
+}
+
+.cabezera-style{
+    background-color: black;
+    padding-left: 90px;
+    color:white;
+}
+
+.banner{
+    position: relative;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.banner h3{
+    color: #3C2313;
+    font-size: 25px;
+}
+
+.style-comedero{
+    position: absolute;
+    background-color: #F0A83E;
+    color: white;
+    left: 700px;
+    top:80px;
+}
+.style-comedero-descuento{
+    position: absolute;
+    left: 670px;
+    top: 50px;
+}
+
+h1{
+    color: #3C2313;
+    font-size: 25px; 
+    background-color: white;
+}
+
+.productos{
+    background-color: #E5E5E5;
+}
+
+.precio{
+    color: #F0A83E;
+}
+
+.style-antefooter{
+    background-color:#3C2313 ;
+
+    box-sizing: border-box;
+}
+.style-derechos{
+    background-color: #F0A83E;
+    color: white;
+    padding: 4px;
+    text-align: center;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+
+.texto1-antefooter{
+    margin-top: 20px;
+    font-size: 20px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.texto2-antefooter{
+    margin-top: 20px;
+    font-size: 10px;
+    color: #8A8787;
+    box-sizing: border-box;
+
+}

@@ -5,14 +5,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/50303851c6.js" crossorigin="anonymous"></script>
     <title>Petshop</title>
+    
 </head>
 
 <body>
     <!-- Contenido para la cabecera -->
     <header>
         <!-- Barra superior -->
-        <div>
+        <div class="cabezera-style">
             <p>Grandes ofertas en comederos</p>
             <!-- Menú regional -->
             <div>
@@ -23,15 +26,15 @@
             </div>
         </div>
         <!-- Barra de menú principal -->
-        <div>
+        <div class="menu-style">
             <img src="./img/Logo.png" alt="">
             <!-- Menú principal -->
             <nav>
-                <ul>
-                    <li><a href="#">Categorías</a></li>
-                    <li><a href="#">Pets</a></li>
-                    <li><a href="#">Nosotros</a></li>
-                    <li><a href="#">Contactanos</a></li>
+                <ul class="pata-doge">
+                    <li><i class="fa-solid fa-paw"></i><a href="#">Categorías</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="#">Pets</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="#">Nosotros</a></li>
+                    <li><i class="fa-solid fa-paw"></i><a href="#">Contactanos</a></li>
                 </ul>
             </nav>
         </div>
@@ -41,38 +44,63 @@
     <main>
         <!-- Sección banner -->
         <section class="banner">
-            <img src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="Imagen de Bowl">
             <h3>¡Es un placer tenerte aquí!</h3>
-            <p>¡Comederos en descuento!</p>
-            <a href="">COMEDEROS</a>
+            <p >¡Comederos en descuento!</p>
+            <a class="style-comedero" href="">COMEDEROS</a>
+            <img  src="./img/bowl-and-pet-daities-on-green-background 1.png" alt="Imagen de Bowl">
+           
+
         </section>
+        
         <!-- Sección productos -->
+        <img src="./img/pawprint1.png" alt="Imagen de patita">
+        <h1>Productos Destacados</h1>
+        <a href="">Comederos</a> - <a href="">Accesorios</a> - <a href="">Comida</a>
         <section class="productos">
-            <img src="./img/pawprint1.png" alt="Imagen de patita">
-            <h1>Productos Destacados</h1>
-            <a href="">Comederos</a> - <a href="">Accesorios</a> - <a href="">Comida</a>
+            
             <br> <br>
             <card>
                 <img src="./img/churrasquito.png" alt="">
                 <h4>Juguete Churrasquito</h4>
-                <p>$150</p>
+                <p class="precio">$150</p>
             </card>
             <card>
                 <img src="./img/comedero.png" alt="">
                 <h4>Comedero para perro</h4>
-                <p>$250</p>
+                <p class="precio">$250</p>
             </card>
             <card>
                 <img src="./img/Huesito.png" alt="">
                 <h4>Juguete huesito</h4>
-                <p>$650</p>
+                <p class="precio">$650</p>
             </card>
 
         </section>
     </main>
 
     <!-- Contenido para el pie de página -->
-    <footer>Todos los derechos reservados Front End</footer>
+    <footer>
+        <section class="style-antefooter">
+        <card>
+            <img class="img-logo" src="img/imgGPS.png" alt=" imagen gps">
+            <p class="texto1-antefooter">Localidad</p>
+            <p class="texto2-antefooter">Calle Provincia</p>
+        </card>
+        <card>
+            <img class="img-logo" src="img/imgTelefono.png" alt=" imagen telefono">
+            <p class="texto1-antefooter">Número de teléfono</p>
+            <p class="texto2-antefooter">15-111-111-111</p>
+        </card>
+        <card>
+            <img class="img-logo" src="img/imgMail.png" alt=" imagen gps">
+            <p class="texto1-antefooter">Correo Electrónico</p>
+            <p class="texto2-antefooter">Sarasa@gmail.com</p>
+        </card>
+        <img src="./img/LogoFooter.png" alt="">
+        </section>
+        <p class="style-derechos">Todos los derechos reservados Front End</p> 
+
+    </footer>
 </body>
 
 </html>
