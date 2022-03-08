@@ -68,20 +68,18 @@ h1{
     padding: 4px;
     text-align: center;
     margin-top: 10px;
-    box-sizing: border-box;
+
 }
 
 .texto1-antefooter{
     margin-top: 20px;
     font-size: 20px;
     color: white;
-    box-sizing: border-box;
+ 
 }
 
 .texto2-antefooter{
     margin-top: 20px;
     font-size: 10px;
     color: #8A8787;
-    box-sizing: border-box;
-
 }
