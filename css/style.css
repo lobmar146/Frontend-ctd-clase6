@@ -1,5 +1,6 @@
 *{
     margin: 0;
+    box-sizing: border-box;
 }
 .menu-style{
     background-color: #F0A83E;
@@ -21,26 +22,38 @@
 
 .banner{
     position: relative;
-    margin-top: 30px;
+    margin-top: 50px;
     text-align: center;
+    background-image: url("../img/bowl-and-pet-daities-on-green-background 1.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    box-sizing: border-box;
+    height: 409px;
 }
 
 .banner h3{
     color: #3C2313;
     font-size: 25px;
+    box-sizing: border-box;
 }
 
-.style-comedero{
+.caja-banner{
     position: absolute;
+    top: -25px;
+    left: calc(50% - 142px);
+}
+.style-comedero{
+    margin-top: 10px;
     background-color: #F0A83E;
     color: white;
-    left: 700px;
-    top:80px;
+    box-sizing: border-box;
+    display: inline-block;
+
+
 }
 .style-comedero-descuento{
-    position: absolute;
-    left: 670px;
-    top: 50px;
+    margin-top: 10px;
+    box-sizing: border-box;
 }
 
 h1{
