@@ -2,22 +2,38 @@
     margin: 0;
     box-sizing: border-box;
 }
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    
+}
 .menu-style{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
     background-color: #F0A83E;
     color: white;
     padding-left: 46px;
+    height: 62px;
     
 }
 
 .pata-doge{
+    display:flex ;
     list-style-type: none;
     padding-left: 1px;
+    gap: 15px;
+    padding-right: 20px;
 }
 
 .cabezera-style{
+    display: flex;
+    justify-content: space-between;
     background-color: black;
     padding-left: 90px;
     color:white;
+    padding-right: 20px;
 }
 
 .banner{
